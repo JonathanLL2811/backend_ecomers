@@ -3,7 +3,7 @@ const {Sequelize} = require('sequelize')
 const sequelize= new Sequelize(
      'carrito',
      'root',
-     'l0renzana',
+     'L0renzana2811@',
     {
         host:  process.env.DB_HOST,
         port: process.env.DB_PORT,
