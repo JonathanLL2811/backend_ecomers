@@ -11,7 +11,7 @@ app.use(cors()); // instale npm install cors y lo coloque ahi para que cargue lo
 
 app.use(express.json());
 
-// Ruta GET para productos
+// Ruta GET ver para productos
 app.get('/productos', async (req, res) => {
     try {
         const productos = await Producto.findAll();
